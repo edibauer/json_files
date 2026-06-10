@@ -1,0 +1,240 @@
+{
+  "layouts": {
+    "wf_N1_EXT_CAC_DTH_PREVENTA": {
+    "source_file": "DWH_DTH_EVENTOS_VENTAS",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "ID_SERVICIO": {
+        "source_column": "ID_SERVICIO",
+        "type": "string"
+      },
+      "CODIGO_VENDEDOR_ANTERIOR": {
+        "source_column": "VENDEDOR_ANTERIOR",
+        "type": "string"
+      },
+      "CODIGO_VENDEDOR_ACTUAL": {
+        "source_column": "VENDEDOR_ACTUAL",
+        "type": "int"
+      },
+      "CEDULA_VENDEDOR_ACTUAL": {
+        "source_column": "CEDULA_VENDEDOR_ACTUAL",
+        "type": "string"
+      },
+      "BUSINESS_KEY": {
+        "source_column": "BUSINESS_KEY",
+        "type": "string"
+      },
+      "CANAL": {
+        "source_column": "CANAL",
+        "type": "string"
+      },
+      "OFICINA": {
+        "source_column": "ORG_NAME",
+        "type": "string"
+      },
+      "SECUENCIAL": {
+        "source_column": "SECUENCIAL",
+        "type": "int"
+      },
+      "ID_CONTRATO": {
+        "source_column": "ACCT_ID",
+        "type": "string"
+      },
+      "IDENTIFICACION": {
+        "source_column": "ID_NUMBER",
+        "type": "string"
+      },
+      "NOMBRES_CLIENTE": {
+        "source_column": "CUST_NAME",
+        "type": "string"
+      },
+      "CODIGO_VENDEDOR": {
+        "source_column": "CODIGO_VENDEDOR",
+        "type": "string"
+      },
+      "FECHA_ACTIVACION": {
+        "source_column": "ACTIVE_DATE",
+        "type": "date"
+      },
+      "TIPO_ALTA": {
+        "source_column": "TIPO_ALTA",
+        "type": "string"
+      },
+      "CODIGO_PRODUCTO": {
+        "source_column": "CODIGO_PRODUCTO",
+        "type": "string"
+      },
+      "PRODUCTO": {
+        "source_column": "PRODUCT",
+        "type": "string"
+      },
+      "CUENTA_BSCS": {
+        "source_column": "CUENTA_BSCS",
+        "type": "string"
+      },
+      "ESTADO": {
+        "source_column": "ESTADO",
+        "type": "string"
+      },
+      "CIUDAD_INSTALACION": {
+        "source_column": "CIUDAD_INSTALACION",
+        "type": "string"
+      },
+      "PARROQUIA_INSTALACION": {
+        "source_column": "PARROQUIA_INSTALACION",
+        "type": "string"
+      },
+      "PROVINCIA_INSTALACION": {
+        "source_column": "PROVINCIA_INSTALACION",
+        "type": "string"
+      },
+      "DIRECCION_INSTALACION": {
+        "source_column": "DIRECCION_INSTALACION",
+        "type": "string"
+      },
+      "TIPO_DOCUMENTO": {
+        "source_column": "TIPO_DOCUMENTO",
+        "type": "string"
+      },
+      "FLAG_MULTIPUNTO": {
+        "source_column": "FLAG_MULTIPUNTO",
+        "type": "string"
+      },
+      "ENTIDAD_BANCARIA": {
+        "source_column": "ENTIDAD_BANCARIA",
+        "type": "string"
+      },
+      "FORMA_PAGO": {
+        "source_column": "FORMA_PAGO",
+        "type": "string"
+      },
+      "CODIGO_USUARIO_SISTEMA": {
+        "source_column": "CODIGO_USUARIO_SISTEMA",
+        "type": "string"
+      },
+      "NOMBRE_VENDEDOR": {
+        "source_column": "NOMBRE_VENDEDOR",
+        "type": "string"
+      },
+      "CODIGO_VENDEDOR_ESPECIFICO": {
+        "source_column": "CODIGO_VENDEDOR_ESPECIFICO",
+        "type": "string"
+      },
+      "FECHA_INGRESO": {
+        "source_column": "FECHA_INGRESO",
+        "type": "date"
+      },
+      "CICLO_FACTURACION": {
+        "source_column": "CICLO_FACTURACION",
+        "type": "string"
+      },
+      "PRECIO_RENTA": {
+        "source_column": "TARIFA_BASICA",
+        "type": "decimal"
+      },
+      "DESCRIPCION_SERVICIO": {
+        "source_column": "DESCRIPCION_SERVICIO",
+        "type": "string"
+      },
+      "ORDER_ID": {
+        "source_column": "ORDER_ID",
+        "type": "string"
+      },
+      "ID_SUCURSAL": {
+        "source_column": "ID_SUCURSAL",
+        "type": "string"
+      },
+      "TIPO_SERVICIO": {
+        "source_column": "TIPO_SERVICIO",
+        "type": "string"
+      },
+      "FAMILIA": {
+        "source_column": "FAMILIA",
+        "type": "string"
+      },
+      "TECNOLOGIA": {
+        "source_column": "TECNOLOGIA",
+        "type": "string"
+      },
+      "CANTIDAD_SERVICIO": {
+        "source_column": "CANTIDAD_SERVICIO",
+        "type": "int"
+      },
+      "ID_EMPLEADO": {
+        "source_column": "ID_EMPLEADO",
+        "type": "string"
+      },
+      "SEGMENTO_CLIENTE": {
+        "source_column": "SEGMENTO_CLIENTE",
+        "type": "string"
+      }
+    }
+  },
+    "wf_N1_CRUCE_VENTAS_2": {
+      "source_file": "DWH_CRUCE_VENTAS_HIS",
+      "periodic_days": ["last"],
+      "columns": {
+        "BUSINESS_KEY": {
+            "source_column": "BUSINESS_KEY",
+            "type": "string"
+        },
+        "CODIGO_VENDEDOR_ANTERIOR": {
+            "source_column": "VENDEDOR_ANTERIOR",
+            "type": "string"
+        },
+        "CODIGO_VENDEDOR_ACTUAL": {
+            "source_column": "VENDEDOR_ACTUAL",
+            "type": "int"
+        },
+        "CEDULA_VENDEDOR_ACTUAL": {
+            "source_column": "CEDULA_VENDEDOR_ACTUAL",
+            "type": "string"
+        },
+        "ID_SERVICIO": {
+            "source_column": "SERVICE_NUMBER",
+            "type": "string"
+        },
+        "CANAL": {
+            "source_column": "CANAL",
+            "type": "string"
+        },
+        "OFICINA": {
+            "source_column": "OFICINA",
+            "type": "string"
+        }
+      }
+    },
+      "wf_N1_EXT_SERV_NO_COMISIONABLES": {
+      "source_file": "wf_N1_EXT_SERV_NO_COMISIONABLES_PADRE",
+      "periodic_days": [1,11,21],
+      "columns": {
+        "SECUENCIAL": {
+            "source_column": "SECUENCIAL",
+            "type": "string"
+        },
+        "SERVICE_NUMBER": {
+            "source_column": "SERVICE_NUMBER",
+            "type": "string"
+        },
+        "REASON": {
+            "source_column": "REASON",
+            "type": "int"
+        },
+        "FECHA_ACTIVACION": {
+            "source_column": "FECHA_ACTIVACION",
+            "type": "string"
+        },
+        "FECHA_REGULARIZACION": {
+            "source_column": "FECHA_REGULARIZACION",
+            "type": "string"
+        },
+        "PRODUCTO": {
+            "source_column": "PRODUCTO",
+            "type": "string"
+        }
+      }
+    }
+  }
+}

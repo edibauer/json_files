@@ -1,0 +1,86 @@
+{
+  "wf_N1_EXT_CAC_CAMBIO_PLANES_DIARIOS_FIJA_SGA": {
+    "source_file": "DWH_CAMBIO_PLAN_FIJA_SGA_NTZ",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "SECUENCIAL": {
+        "source_column": "SECUENCIAL",
+        "type": "int"
+      },
+      "ID_SERVICIO": {
+        "source_column": "ID_SERVICIO",
+        "type": "string"
+      },
+      "ID_CONTRATO": {
+        "source_column": "ID_CONTRATO",
+        "type": "string"
+      },
+      "FECHA_FIN": {
+        "source_column": "FECHA_FIN",
+        "type": "date"
+      },
+      "CUENTA_BSCS_ACTUAL": {
+        "source_column": "CUENTA_BSCS_ACTUAL",
+        "type": "string"
+      },
+      "FECHA_ACTIVACION": {
+        "source_column": "ACTIVE_DATE",
+        "type": "date"
+      },
+      "SUBSCRIBERID": {
+        "source_column": "SUBSCRIBERID",
+        "type": "string"
+      },
+      "TARIFA_ANTERIOR": {
+        "source_column": "TARIFA_ANTERIOR",
+        "type": "decimal"
+      },
+      "TARIFA_NUEVA": {
+        "source_column": "TARIFA_NUEVA",
+        "type": "decimal"
+      },
+      "PRODUCTO_ANTERIOR": {
+        "source_column": "PRODUCTO_ANTERIOR",
+        "type": "string"
+      },
+      "PRODUCTO_ACTUAL": {
+        "source_column": "PRODUCTO_ACTUAL",
+        "type": "string"
+      },
+      "DESCRIPCION_PLAN_ANTERIOR": {
+        "source_column": "DESCRIPCION_PLAN_ANTERIOR",
+        "type": "string"
+      },
+      "DESCRIPCION_PLAN_ACTUAL": {
+        "source_column": "DESCRIPCION_PLAN_ACTUAL",
+        "type": "string"
+      },
+      "EMPLOYEE_CODE": {
+        "source_column": "EMPLOYEE_CODE",
+        "type": "string"
+      },
+      "ID_SOLICITUD": {
+        "source_column": "ID_SOLICITUD",
+        "type": "string"
+      },
+      "CODIGO_VENDEDOR": {
+        "source_column": "CODIGO_VENDEDOR",
+        "type": "string"
+      },
+      "OFICINA_CAC": {
+        "source_column": "OFICINA_CAC",
+        "type": "string"
+      },
+      "BUSSINES_KEY": {
+        "source_column": "BUSINESS_KEY",
+        "type": "string"
+      },
+      "ID_EMPLEADO": {
+        "source_column": "CODIGO_RUC_VEND",
+        "type": "string"
+      }
+    }
+  }
+}
