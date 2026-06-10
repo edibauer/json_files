@@ -1,7 +1,7 @@
 -- CAC
 1. Para el archivo de wf_N1_EXT_CAC_CAMBIO_ESTADOS_DIARIOS_FIJA_SGA dice que el CODIGO_FAMILIA no se incluye en el archivo.
 2. No se encuentra el campo DESCRIPCION_SERVICIO en el archivo padre.
-
+3. Para el archivo wf_N1_EXT_POSTPAGO_ACTIVACIONES no se cuenta con nombre en informacion de venta movil para FECHA_MIGRACION
 
 
 
