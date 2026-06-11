@@ -1,0 +1,142 @@
+{
+  "wf_N1_EXT_CAC_EVENTOS_FIJA_SGA": {
+    "source_file": "DWH_EVENTOS_FIJA_SGA_NTZ",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "SECUENCIAL": {
+        "source_column": "SECUENCIAL",
+        "type": "int"
+      },
+      "ID_CONTRATO": {
+        "source_column": "ID_CONTRATO",
+        "type": "string"
+      },
+      "ID_SERVICIO": {
+        "source_column": "ID_SERVICIO",
+        "type": "string"
+      },
+      "IDENTIFICACION": {
+        "source_column": "IDENTIFICACION",
+        "type": "string"
+      },
+      "CLIENTE": {
+        "source_column": "CLIENTE",
+        "type": "string"
+      },
+      "CODIGO_VENDEDOR": {
+        "source_column": "CODIGO_VENDEDOR",
+        "type": "string"
+      },
+      "FECHA_ACTIVACION": {
+        "source_column": "FECHA_ACTIVACION",
+        "type": "date"
+      },
+      "DESCRIPCION_FAMILIA": {
+        "source_column": "DESCRIPCION_FAMILIA",
+        "type": "string"
+      },
+      "CODIGO_SERVICIO": {
+        "source_column": "CODIGO_SERVICIO",
+        "type": "string"
+      },
+      "DESCRIPCION_SERVICIO": {
+        "source_column": "DESCRIPCION_SERVICIO",
+        "type": "string"
+      },
+      "TIPO_ALTA": {
+        "source_column": "TIPO_ALTA",
+        "type": "string"
+      },
+      "TIPO_DOCUMENTO": {
+        "source_column": "TIPO_DOCUMENTO",
+        "type": "string"
+      },
+      "BUSINESS_KEY": {
+        "source_column": "BUSINESS_KEY",
+        "type": "string"
+      },
+      "ESTADO": {
+        "source_column": "ESTADO",
+        "type": "string"
+      },
+      "TECNOLOGIA": {
+        "source_column": "TECNOLOGIA",
+        "type": "string"
+      },
+      "PRECIO_RENTA": {
+        "source_column": "PRECIO_RENTA",
+        "type": "decimal"
+      },
+      "NOMBRE_VENDEDOR_FIJA": {
+        "source_column": "NOMBRE_VENDEDOR_FIJA",
+        "type": "string"
+      },
+      "COD_FAMILIA": {
+        "source_column": "COD_FAMILIA",
+        "type": "string"
+      },
+      "ID_SUCURSAL": {
+        "source_column": "ID_SUCURSAL",
+        "type": "string"
+      },
+      "TARIFA_BASICA_DESCONTADA": {
+        "source_column": "TARIFA_BASICA_DESCONTADA",
+        "type": "decimal"
+      },
+      "CODIGO_CLIENTE": {
+        "source_column": "CODCLI",
+        "type": "string"
+      },
+      "CODIGO_RUC": {
+        "source_column": "CODIGO_RUC_VEND",
+        "type": "string"
+      },
+      "CANAL": {
+        "source_column": "DESC_CANAL",
+        "type": "string"
+      },
+      "FORMA_PAGO": {
+        "source_column": "FORMA_PAGO",
+        "type": "string"
+      },
+      "CICLO_FACTURACION": {
+        "source_column": "CICLO_FACTURACION",
+        "type": "string"
+      },
+      "TIPO_PAQUETE": {
+        "source_column": "TIPO_PAQUETE",
+        "type": "string"
+      },
+      "SID": {
+        "source_column": "CODINSSRV",
+        "type": "string"
+      },
+      "USUARIO_REGISTRO": {
+        "source_column": "USUARIO_VENDEDOR",
+        "type": "string"
+      },
+      "CANTON": {
+        "source_column": "CANTON",
+        "type": "string"
+      },
+      "PAQUETE": {
+        "source_column": "PAQUETE",
+        "type": "string"
+      },
+      "NODO_CLUSTER": {
+        "source_column": "CLUSTER_NODO",
+        "type": "string"
+      },
+      "OFICINA": {
+        "source_column": "OFICINA",
+        "type": "string"
+      },
+      "SEGMENTO_CLIENTE": {
+        "source_column": "SEGMENTO_CLIENTE",
+        "type": "string"
+      }
+    }
+  }
+}

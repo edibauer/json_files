@@ -1,0 +1,218 @@
+{
+  "wf_N1_EXT_CAC_EVENTOS_POSTPAGO_AXIS": {
+    "source_file": "DWH_ALTAS_WTTX_AXIS",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "ID_SERVICIO": {
+        "source_column": "ID_SERVICIO",
+        "type": "string"
+      },
+      "SECUENCIA_MARCA": {
+        "source_column": "SECUENCIA_MARCA",
+        "type": "int"
+      },
+      "FECHA_ACTIVACION": {
+        "source_column": "FECHA_ACTIVACION",
+        "type": "date"
+      },
+      "PORTABILIDAD": {
+        "source_column": "PORTABILIDAD",
+        "type": "string"
+      },
+      "ID_SERVICIO_ALTERNA": {
+        "source_column": "ID_SERVICIO_ALTERNA",
+        "type": "string"
+      },
+      "REFERENCIA1_ALTERNA": {
+        "source_column": "REFERENCIA1_ALTERNA",
+        "type": "string"
+      },
+      "FECHA_INICIO_ALTERNA": {
+        "source_column": "FECHA_INICIO_ALTERNA",
+        "type": "date"
+      },
+      "NOMBRE_COMPLETO_ALTERNO": {
+        "source_column": "NOMBRE_COMPLETO_ALTERNO",
+        "type": "string"
+      },
+      "SALDO_ALTERNO": {
+        "source_column": "SALDO_ALTERNO",
+        "type": "decimal"
+      },
+      "FECHA_FIN_ALTERNA": {
+        "source_column": "FECHA_FIN_ALTERNA",
+        "type": "date"
+      },
+      "NOMBRE_COMPLETO": {
+        "source_column": "NOMBRE_COMPLETO",
+        "type": "string"
+      },
+      "ID_CONTRATO": {
+        "source_column": "ID_CONTRATO",
+        "type": "string"
+      },
+      "CODIGO_DOC": {
+        "source_column": "CODIGO_DOC",
+        "type": "string"
+      },
+      "ID_SOLICITUD": {
+        "source_column": "ID_SOLICITUD",
+        "type": "string"
+      },
+      "DATO_IDENTIFICACION": {
+        "source_column": "DATO_IDENTIFICACION",
+        "type": "string"
+      },
+      "ID_VENDEDOR_PERSONA": {
+        "source_column": "ID_VENDEDOR_PERSONA",
+        "type": "string"
+      },
+      "ID_TIPO_APROBACION": {
+        "source_column": "ID_TIPO_APROBACION",
+        "type": "string"
+      },
+      "FECHA_MARCA": {
+        "source_column": "FECHA_MARCA",
+        "type": "date"
+      },
+      "ID_IDENTIFICACION": {
+        "source_column": "ID_IDENTIFICACION",
+        "type": "string"
+      },
+      "ID_SOLICITUD1": {
+        "source_column": "ID_SOLICITUD1",
+        "type": "string"
+      },
+      "ID_DETALLE_SOLICITUD": {
+        "source_column": "ID_DETALLE_SOLICITUD",
+        "type": "string"
+      },
+      "ID_FORMA_PAGO": {
+        "source_column": "ID_FORMA_PAGO",
+        "type": "string"
+      },
+      "ID_VENDEDOR_ESPECIFICO": {
+        "source_column": "ID_VENDEDOR_ESPECIFICO",
+        "type": "string"
+      },
+      "NUMERO_FINANCIAMIENTO": {
+        "source_column": "NUMERO_FINANCIAMIENTO",
+        "type": "string"
+      },
+      "FECHA_INGRESO": {
+        "source_column": "FECHA_INGRESO",
+        "type": "date"
+      },
+      "NUMERO_SERIE": {
+        "source_column": "NUMERO_SERIE",
+        "type": "string"
+      },
+      "ID_CICLO": {
+        "source_column": "ID_CICLO",
+        "type": "string"
+      },
+      "REFERENCIA4": {
+        "source_column": "REFERENCIA4",
+        "type": "string"
+      },
+      "ID_USUARIO_DIGITADOR": {
+        "source_column": "ID_USUARIO_DIGITADOR",
+        "type": "string"
+      },
+      "VALOR": {
+        "source_column": "VALOR",
+        "type": "decimal"
+      },
+      "REFERENCIA1": {
+        "source_column": "REFERENCIA1",
+        "type": "string"
+      },
+      "ID_PLAN": {
+        "source_column": "ID_PLAN",
+        "type": "string"
+      },
+      "FORMA_PAGO": {
+        "source_column": "FORMA_PAGO",
+        "type": "string"
+      },
+      "TIPO_ALTA": {
+        "source_column": "TIPO_ALTA",
+        "type": "string"
+      },
+      "FLAG_PORTABILIDAD": {
+        "source_column": "FLAG_PORTABILIDAD",
+        "type": "string"
+      },
+      "ESTADO": {
+        "source_column": "ESTADO",
+        "type": "string"
+      },
+      "CODIGO_PRODUCTO": {
+        "source_column": "CODIGO_PRODUCTO",
+        "type": "string"
+      },
+      "CIUDAD": {
+        "source_column": "CIUDAD",
+        "type": "string"
+      },
+      "DISTRIBUCION_LINEA": {
+        "source_column": "DISTRIBUCION_LINEA",
+        "type": "string"
+      },
+      "ID_DETALLE_PLAN": {
+        "source_column": "ID_DETALLE_PLAN",
+        "type": "string"
+      },
+      "NOMBRE_VENDEDOR_ESPECIFICO": {
+        "source_column": "NOMBRE_VENDEDOR_ESPECIFICO",
+        "type": "string"
+      },
+      "NOMBRE_ASESOR": {
+        "source_column": "NOMBRE_ASESOR",
+        "type": "string"
+      },
+      "MODELO_EQUIPO": {
+        "source_column": "MODELO_EQUIPO",
+        "type": "string"
+      },
+      "CANTIDAD_FINANCIAMIENTO": {
+        "source_column": "CANTIDAD_FINANCIAMIENTO",
+        "type": "int"
+      },
+      "TOTAL_FACTURADO_FINANCIAMIENTO": {
+        "source_column": "TOTAL_FACTURADO_FINANCIAMIENTO",
+        "type": "decimal"
+      },
+      "MONTO_FINANCIADO": {
+        "source_column": "MONTO_FINANCIADO",
+        "type": "decimal"
+      },
+      "ENTIDAD_BANCARIA": {
+        "source_column": "ENTIDAD_BANCARIA",
+        "type": "string"
+      },
+      "ID_EMPLEADO": {
+        "source_column": "ID_EMPLEADO",
+        "type": "string"
+      },
+      "OFICINA": {
+        "source_column": "OFICINA",
+        "type": "string"
+      },
+      "SEGMENTO_CLIENTE": {
+        "source_column": "SEGMENTO_CLIENTE",
+        "type": "string"
+      },
+      "TARIFA_BASICA": {
+        "source_column": "TARIFA_BASICA",
+        "type": "decimal"
+      },
+      "DSC_PLAN_ACTUAL": {
+        "source_column": "PLAN_ACTUAL",
+        "type": "string"
+      }
+    }
+  }
+}
