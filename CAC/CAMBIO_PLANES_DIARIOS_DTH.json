@@ -1,0 +1,74 @@
+{
+  "wf_N1_EXT_CAC_CAMBIO_PLANES_DIARIOS_DTH": {
+    "source_file": "DWH_DTH_CAMBIO_PLANES_DIARIOS",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "SECUENCIAL": {
+        "source_column": "SECUENCIAL",
+        "type": "int"
+      },
+      "ID_CONTRATO": {
+        "source_column": "ID_CONTRATO",
+        "type": "string"
+      },
+      "PRODUCTO_ACTUAL": {
+        "source_column": "PRODUCTO_ACTUAL",
+        "type": "string"
+      },
+      "FECHA_INICIO": {
+        "source_column": "FECHA_INICIO",
+        "type": "date"
+      },
+      "CUENTA_BSCS_ACTUAL": {
+        "source_column": "CUENTA_BSCS_ACTUAL",
+        "type": "string"
+      },
+      "BUSINESS_KEY": {
+        "source_column": "BUSINESS_KEY",
+        "type": "string"
+      },
+      "PRECIO_RENTA": {
+        "source_column": "PRECIO_RENTA",
+        "type": "decimal"
+      },
+      "TARIFA_ANTERIOR": {
+        "source_column": "TARIFA_ANTERIOR",
+        "type": "decimal"
+      },
+      "TARIFA_NUEVA": {
+        "source_column": "TARIFA_NUEVA",
+        "type": "decimal"
+      },
+      "DESCRIPCION_PLAN_ACTUAL": {
+        "source_column": "DESCRIPCION_PLAN_ACTUAL",
+        "type": "string"
+      },
+      "DESCRIPCION_PLAN_ANTERIOR": {
+        "source_column": "DESCRIPCION_PLAN_ANTERIOR",
+        "type": "string"
+      },
+      "EMPLOYEE_CODE": {
+        "source_column": "EMPLOYEE_CODE",
+        "type": "string"
+      },
+      "CODIGO_VENDEDOR": {
+        "source_column": "CODIGO_VENDEDOR",
+        "type": "string"
+      },
+      "OFICINA": {
+        "source_column": "OFICINA",
+        "type": "string"
+      },
+      "ID_EMPLEADO": {
+        "source_column": "ID_EMPLEADO",
+        "type": "string"
+      },
+      "FECHA_PROGRAMACION": {
+        "source_column": "FECHA_PROGRAMACION",
+        "type": "date"
+      }
+    }
+  }
+}

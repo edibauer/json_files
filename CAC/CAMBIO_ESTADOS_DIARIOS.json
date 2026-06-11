@@ -1,0 +1,90 @@
+{
+  "Wf_N1_EXT_CAC_CAMBIO_ESTADOS_DIARIOS": {
+    "source_file": "DWH_CAMBIO_ESTADOS_DIARIOS_MOVIL_HWE",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "SEQUENCE": {
+        "source_column": "SEQUENCE",
+        "type": "int"
+      },
+      "SERVICE_NUMBER": {
+        "source_column": "SERVICE_NUMBER",
+        "type": "string"
+      },
+      "ORDER_ID": {
+        "source_column": "ORDER_ID",
+        "type": "string"
+      },
+      "ACTIVE_DATE": {
+        "source_column": "ACTIVE_DATE",
+        "type": "date"
+      },
+      "ACCT_ID": {
+        "source_column": "ACCT_ID",
+        "type": "string"
+      },
+      "OFFERING_ID": {
+        "source_column": "OFFERING_ID",
+        "type": "string"
+      },
+      "OFFERING_ID1": {
+        "source_column": "OFFERING_ID1",
+        "type": "string"
+      },
+      "STATUS_DATE": {
+        "source_column": "STATUS_DATE",
+        "type": "date"
+      },
+      "ACCT_CODE": {
+        "source_column": "ACCT_CODE",
+        "type": "string"
+      },
+      "BUSINESS_KEY": {
+        "source_column": "BUSINESS_KEY",
+        "type": "string"
+      },
+      "FECHA_MIGRACION": {
+        "source_column": "COMPLETION_DATE",
+        "type": "date"
+      },
+      "TARIFA_ANTERIOR": {
+        "source_column": "TARIFA_ANTERIOR",
+        "type": "decimal"
+      },
+      "TARIFA_NUEVA": {
+        "source_column": "TARIFA_NUEVA",
+        "type": "decimal"
+      },
+      "DESCRIPCION_PLAN_ACTUAL": {
+        "source_column": "DESCRIPCION_PLAN_ACTUAL",
+        "type": "string"
+      },
+      "DESCRIPCION_PLAN_ANTERIOR": {
+        "source_column": "DESCRIPCION_PLAN_ANTERIOR",
+        "type": "string"
+      },
+      "EMPLOYEE_CODE": {
+        "source_column": "CODIGO_VENDEDOR",
+        "type": "string"
+      },
+      "CODIGO_VENDEDOR": {
+        "source_column": "CODIGO_VENDEDOR",
+        "type": "string"
+      },
+      "OFICINA": {
+        "source_column": "OFICINA",
+        "type": "string"
+      },
+      "ID_EMPLEADO": {
+        "source_column": "ID_EMPLEADO",
+        "type": "string"
+      },
+      "FECHA_PROGRAMACION": {
+        "source_column": "FECHA_PROGRAMACION",
+        "type": "date"
+      }
+    }
+  }
+}

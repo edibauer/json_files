@@ -1,0 +1,110 @@
+{
+  "wf_N1_EXT_CAC_EQUIPOS_TV": {
+    "source_file": "RPT_VENTAS_ACC_DTH_CADILLUS_HIS",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "SECUENCIAL": {
+        "source_column": "SECUENCIAL",
+        "type": "int"
+      },
+      "FECHA_FACTURA": {
+        "source_column": "FECHA_FACTURA",
+        "type": "date"
+      },
+      "NO_ORDEN": {
+        "source_column": "NO_ORDEN",
+        "type": "string"
+      },
+      "FACT_IN_CAJA": {
+        "source_column": "FACT_IN_CAJA",
+        "type": "string"
+      },
+      "DESC_PROD": {
+        "source_column": "DESC_PROD",
+        "type": "string"
+      },
+      "CANTIDAD_PEDIDA": {
+        "source_column": "CANTIDAD_PEDIDA",
+        "type": "int"
+      },
+      "CANTIDAD_DEV": {
+        "source_column": "CANTIDAD_DEV",
+        "type": "int"
+      },
+      "VALOR_PROD_TOTAL": {
+        "source_column": "VALOR_PROD_TOTAL",
+        "type": "decimal"
+      },
+      "CANAL": {
+        "source_column": "CANAL",
+        "type": "string"
+      },
+      "CLIENTE": {
+        "source_column": "CLIENTE",
+        "type": "string"
+      },
+      "OPERADOR": {
+        "source_column": "OPERADOR",
+        "type": "string"
+      },
+      "COSTO_UNIT": {
+        "source_column": "COSTO_UNIT",
+        "type": "decimal"
+      },
+      "DESCUENTO_TOTAL": {
+        "source_column": "DESCUENTO_TOTAL",
+        "type": "decimal"
+      },
+      "VENTA_NETA": {
+        "source_column": "VENTA_NETA",
+        "type": "decimal"
+      },
+      "CODIGO_VENDEDOR": {
+        "source_column": "CODIGO_VENDEDOR",
+        "type": "string"
+      },
+      "IDENTIFICACION_VEND": {
+        "source_column": "IDENTIFICACION_VEND",
+        "type": "string"
+      },
+      "MONTO_FORMA_PAGO": {
+        "source_column": "MONTO_PAGO",
+        "type": "decimal"
+      },
+      "FORMA_PAGO": {
+        "source_column": "FORMA_PAGO",
+        "type": "string"
+      },
+      "MARCA": {
+        "source_column": "MARCA",
+        "type": "string"
+      },
+      "TIPO_EQUIPO": {
+        "source_column": "TIPO_EQUIPO",
+        "type": "string"
+      },
+      "OFICINA": {
+        "source_column": "OFICINA",
+        "type": "string"
+      },
+      "CATEGORIA": {
+        "source_column": "CATEGORIA",
+        "type": "string"
+      },
+      "PROMOCIONAL": {
+        "source_column": "PROMOCIONAL",
+        "type": "string"
+      },
+      "VALOR_SUBSIDIO": {
+        "source_column": "VALOR_SUBSIDIO",
+        "type": "decimal"
+      },
+      "ESTADO_SUBSIDIO": {
+        "source_column": "ESTADO_SUBSIDIO",
+        "type": "string"
+      }
+    }
+  }
+}
