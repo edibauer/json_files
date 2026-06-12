@@ -1,0 +1,34 @@
+{
+  "wf_N1_EXT_CAC_CRUCE_VENTA": {
+    "source_file": " DWH_CRUCE_VENTAS_HIS",
+    "periodic_days": [
+      "last"
+    ],
+    "columns": {
+      "ID_SERVICIO": {
+        "source_column": "ID_SERVICIO",
+        "type": "string"
+      },
+      "CODIGO_VENDEDOR_ANTERIOR": {
+        "source_column": "VENDEDOR_ANTERIOR",
+        "type": "string"
+      },
+      "CODIGO_VENDEDOR_ACTUAL": {
+        "source_column": "VENDEDOR_ACTUAL",
+        "type": "string"
+      },
+      "CEDULA_VENDEDOR_ACTUAL": {
+        "source_column": "CEDULA_VENDEDOR_ACTUAL",
+        "type": "string"
+      },
+      "BUSINESS_KEY": {
+        "source_column": "BUSINESS_KEY",
+        "type": "string"
+      },
+      "CANAL": {
+        "source_column": "CANAL",
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "wf_N1_EXT_CAC_FACTURAS_EMITIDAS_HW": {
+    "source_file": "DWH_FACTURAS_EMITIDAS_MOVIL_POST",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "SECUENCIAL": {
+        "source_column": "SEQUENCE",
+        "type": "int"
+      },
+      "NUMERO_FACTURA": {
+        "source_column": "INVOICE_NO",
+        "type": "string"
+      },
+      "ID_CONTRATO": {
+        "source_column": "ACCT_ID",
+        "type": "string"
+      },
+      "VALOR_FACTURADO": {
+        "source_column": "INVOICE_AMT",
+        "type": "decimal"
+      },
+      "FECHA_MAX_PAGO": {
+        "source_column": "DUE_DATE",
+        "type": "date"
+      },
+      "FECHA_FACTURACION": {
+        "source_column": "INVOICE_DATE",
+        "type": "date"
+      },
+      "FECHA_CORTE": {
+        "source_column": "END_DATE",
+        "type": "date"
+      },
+      "NOMBRES_CLIENTE": {
+        "source_column": "CUST_NAME",
+        "type": "string"
+      },
+      "DIRECCION_DOMICILIO": {
+        "source_column": "US_ADDR",
+        "type": "string"
+      },
+      "CICLO_FACTURACION": {
+        "source_column": "BILL_CYCLE_TYPE",
+        "type": "string"
+      },
+      "CUENTA": {
+        "source_column": "ACCT_CODE",
+        "type": "string"
+      }
+    }
+  }
+}

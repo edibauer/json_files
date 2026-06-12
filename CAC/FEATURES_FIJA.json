@@ -1,0 +1,146 @@
+{
+  "wf_N1_EXT_CAC_FEATURES_FIJA": {
+    "source_file": " DWH_FEATURE_FIJA_HWE",
+    "periodic_days": [
+      "daily"
+    ],
+  "columns": {
+      "SECUENCIAL": {
+        "source_column": "SECUENCIAL",
+        "type": "int"
+      },
+      "ID_SOLICITUD": {
+        "source_column": "ID_SOLICITUD",
+        "type": "string"
+      },
+      "ID_CONTRATO": {
+        "source_column": "ID_CONTRATO",
+        "type": "string"
+      },
+      "ID_SERVICIO": {
+        "source_column": "ID_SERVICIO",
+        "type": "string"
+      },
+      "CODIGO_FEATURE": {
+        "source_column": "CODIGO_FEATURE",
+        "type": "string"
+      },
+      "FECH_ACT_FEATURE": {
+        "source_column": "FECHA_ACT_FEATURE",
+        "type": "date"
+      },
+      "ESTADO_FEATURE": {
+        "source_column": "ESTADO_FEATURE",
+        "type": "string"
+      },
+      "TIPO_ALTA": {
+        "source_column": "TIPO_ALTA",
+        "type": "string"
+      },
+      "CODIGO_VENDEDOR": {
+        "source_column": "CODIGO_VENDEDOR",
+        "type": "string"
+      },
+      "FLAG_MULTIPUNTO": {
+        "source_column": "FLAG_MULTIPUNTO",
+        "type": "string"
+      },
+      "BUSINESS_KEY_F": {
+        "source_column": "BUSINESS_KEY_F",
+        "type": "string"
+      },
+      "PRECIO_RENTA": {
+        "source_column": "PRECIO_RENTA",
+        "type": "decimal"
+      },
+      "FLAG_TIPO_EVENTO": {
+        "source_column": "FLAG_TIPO_EVENTO",
+        "type": "string"
+      },
+      "CUENTA": {
+        "source_column": "CUENTA",
+        "type": "string"
+      },
+      "CIUDAD_INSTALACION": {
+        "source_column": "CIUDAD_INSTALACION",
+        "type": "string"
+      },
+      "PARROQUIA_INSTALACION": {
+        "source_column": "PARROQUIA_INSTALACION",
+        "type": "string"
+      },
+      "PROVINCIA_INSTALACION": {
+        "source_column": "PROVINCIA_INSTALACION",
+        "type": "string"
+      },
+      "DIRECCION_INSTALACION": {
+        "source_column": "DIRECCION_INSTALACION",
+        "type": "string"
+      },
+      "TIPO_DOCUMENTO": {
+        "source_column": "TIPO_DOCUMENTO",
+        "type": "string"
+      },
+      "ENTIDAD_BANCARIA": {
+        "source_column": "ENTIDAD_BANCARIA",
+        "type": "string"
+      },
+      "FORMA_PAGO": {
+        "source_column": "FORMA_PAGO",
+        "type": "string"
+      },
+      "CICLO_FACTURACION": {
+        "source_column": "CICLO_FACTURACION",
+        "type": "string"
+      },
+      "BUSINESS_KEY": {
+        "source_column": "BUSINESS_KEY",
+        "type": "string"
+      },
+      "EMPLOYEE_CODE": {
+        "source_column": "EMPLOYEE_CODE",
+        "type": "string"
+      },
+      "NOMBRE_PLAN": {
+        "source_column": "OFFERING_NAME",
+        "type": "string"
+      },
+      "IDENTIFICACION": {
+        "source_column": "IDENTIFICACION",
+        "type": "string"
+      },
+      "NOMBRES_CLIENTE": {
+        "source_column": "NOMBRES_CLIENTE",
+        "type": "string"
+      },
+      "TARIFA_BASICA_DESCONTADA": {
+        "source_column": "TARIFA_BASICA_DESCONTADA",
+        "type": "decimal"
+      },
+      "TECNOLOGIA": {
+        "source_column": "TECNOLOGIA",
+        "type": "string"
+      },
+      "DESCRIPCION_FAMILIA": {
+        "source_column": "DESCRIPCION_FAMILIA",
+        "type": "string"
+      },
+      "NOMBRE_VENDEDOR": {
+        "source_column": "NOMBRE_VENDEDOR",
+        "type": "string"
+      },
+      "ID_EMPLEADO": {
+        "source_column": "IDENTIFICACION_VENDEDOR",
+        "type": "string"
+      },
+      "OFICINA": {
+        "source_column": "OFICINA",
+        "type": "string"
+      },
+      "SEGMENTO_CLIENTE": {
+        "source_column": "SEGMENTO_CLIENTE",
+        "type": "string"
+      }
+    }
+  }
+}

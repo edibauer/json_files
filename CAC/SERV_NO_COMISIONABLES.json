@@ -1,0 +1,34 @@
+{
+  "wf_N1_EXT_CAC_SERV_NO_COMISIONABLES": {
+    "source_file": "RPT_SERV_NO_COMISIONABLE",
+    "periodic_days": [
+      1, 11, 21
+    ],
+    "columns": {
+      "SECUENCIAL": {
+        "source_column": "SECUENCIA",
+        "type": "int"
+      },
+      "SERVICE_NUMBER": {
+        "source_column": "SERVICE_NUMBER",
+        "type": "string"
+      },
+      "REASON": {
+        "source_column": "REASON",
+        "type": "string"
+      },
+      "FECHA_ACTIVACION": {
+        "source_column": "FECHA_ACTIVACION",
+        "type": "date"
+      },
+      "FECHA_REGULARIZACION": {
+        "source_column": "FECHA_REGULARIZACION",
+        "type": "date"
+      },
+      "PRODUCTO": {
+        "source_column": "PRODUCTO",
+        "type": "string"
+      }
+    }
+  }
+}

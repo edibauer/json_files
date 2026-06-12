@@ -1,0 +1,50 @@
+{
+  "wf_N1_EXT_CAC_FACTURAS_PAGADAS_FIJA_SGA": {
+    "source_file": "DWH_FACTURAS_PAGADAS_SGA_NTZ",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "SECUENCIAL": {
+        "source_column": "SEQUENCE",
+        "type": "int"
+      },
+      "ID_INTERNO": {
+        "source_column": "ID_INTERNO",
+        "type": "string"
+      },
+      "FEC_EMISION_FACTURA": {
+        "source_column": "FEC_EMISION_FACTURA",
+        "type": "date"
+      },
+      "FECHA_PAGO": {
+        "source_column": "FECHA_PAGO",
+        "type": "date"
+      },
+      "CUENTA_BSCS": {
+        "source_column": "CUENTA_BSCS",
+        "type": "string"
+      },
+      "VALOR_PAGADO": {
+        "source_column": "VALOR_PAGADO",
+        "type": "decimal"
+      },
+      "LINEA_COBRANZA": {
+        "source_column": "LINEA_COBRANZA",
+        "type": "string"
+      },
+      "DIRECCION_DOMICILIO": {
+        "source_column": "DIRECCION_DOMICILIO",
+        "type": "string"
+      },
+      "FORMA_PAGO": {
+        "source_column": "FORMA_PAGO",
+        "type": "string"
+      },
+      "PAYMENT_METHOD_ID": {
+        "source_column": "ID_TIPO_PAGO",
+        "type": "string"
+      }
+    }
+  }
+}

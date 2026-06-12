@@ -1,0 +1,54 @@
+{
+  "wf_N1_EXT_CAC_BAJAS_FIJA": {
+    "source_file": "  DWH_CRUCE_BAJAS_HIS",
+    "periodic_days": [
+      "last"
+    ],
+    "columns": {
+      "PROYECTO": {
+        "source_column": "PROYECTO",
+        "type": "string"
+      },
+      "CODINSSRV": {
+        "source_column": "CODINSSRV",
+        "type": "string"
+      },
+      "SERVICE_NUMBER": {
+        "source_column": "SERVICE_NUMBER",
+        "type": "string"
+      },
+      "OFICINA": {
+        "source_column": "OFICINA",
+        "type": "string"
+      },
+      "EMPLOYEE_CODE": {
+        "source_column": "EMPLOYEE_CODE",
+        "type": "string"
+      },
+      "FAMILIA": {
+        "source_column": "FAMILIA",
+        "type": "string"
+      },
+      "ID_EMPLEADO": {
+        "source_column": "ID_EMPLEADO",
+        "type": "string"
+      },
+      "FECHA_BAJA": {
+        "source_column": "FECHA_BAJA",
+        "type": "date"
+      },
+      "VALOR_RECURRENTE": {
+        "source_column": "VALOR_RECURRENTE",
+        "type": "decimal"
+      },
+      "TECNOLOGIA": {
+        "source_column": "TECNOLOGIA",
+        "type": "string"
+      },
+      "BUSINESS_KEY": {
+        "source_column": "BUSINESS_KEY",
+        "type": "string"
+      }
+    }
+  }
+}
