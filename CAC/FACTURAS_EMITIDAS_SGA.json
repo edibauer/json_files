@@ -1,0 +1,58 @@
+{
+  "wf_N1_EXT_CAC_FACTURAS_EMITIDAS_SGA": {
+    "source_file": "DWH_FACT_EMITIDAS_SGA",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "ID_INTERNO": {
+        "source_column": "ID_INTERNO",
+        "type": "int"
+      },
+      "NRO_PROYECTO": {
+        "source_column": "NRO_PROYECTO",
+        "type": "string"
+      },
+      "FECHA_MAX_PAGO": {
+        "source_column": "FECHA_MAX_PAGO",
+        "type": "date"
+      },
+      "FEC_EMISION_FACTURA": {
+        "source_column": "FEC_EMISION_FACTURA",
+        "type": "date"
+      },
+      "FECHA_CORTE": {
+        "source_column": "FECHA_CORTE",
+        "type": "date"
+      },
+      "TOTAL_FACTURADO": {
+        "source_column": "TOTAL_FACTURADO",
+        "type": "decimal"
+      },
+      "ID_CICLO": {
+        "source_column": "ID_CICLO",
+        "type": "string"
+      },
+      "CICLO_FACTURACION": {
+        "source_column": "CICLO_FACTURACION",
+        "type": "string"
+      },
+      "NOMBRE_CLIENTE": {
+        "source_column": "NOMBRE_CLIENTE",
+        "type": "string"
+      },
+      "LINEA_COBRANZA": {
+        "source_column": "LINEA_COBRANZA",
+        "type": "string"
+      },
+      "DIRECCION_DOMICILIO": {
+        "source_column": "DIRECCION_DOMICILIO",
+        "type": "string"
+      },
+      "CUENTA_BSCS": {
+        "source_column": "CUENTA_BSCS",
+        "type": "string"
+      }
+    }
+  }
+}

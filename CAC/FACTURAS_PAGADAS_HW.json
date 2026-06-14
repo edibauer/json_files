@@ -1,0 +1,62 @@
+{
+  "wf_N1_EXT_CAC_FACTURAS_PAGADAS_HW": {
+    "source_file": "DWH_FACTURAS_PAGADAS_MOVIL_POST",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "SECUENCIAL": {
+        "source_column": "SEQUENCE",
+        "type": "int"
+      },
+      "NUMERO_FACTURA": {
+        "source_column": "INVOICE_NO",
+        "type": "string"
+      },
+      "VALOR_PAGADO": {
+        "source_column": "PAYMENT_AMT",
+        "type": "decimal"
+      },
+      "FECHA_PAGO": {
+        "source_column": "CLOSE_DATE",
+        "type": "date"
+      },
+      "CUENTA_BSCS": {
+        "source_column": "ACCT_CODE",
+        "type": "string"
+      },
+      "VALOR_FACTURADO": {
+        "source_column": "INVOICE_AMT",
+        "type": "decimal"
+      },
+      "DESCRIPCION_PAGO": {
+        "source_column": "DESCRIPTION",
+        "type": "string"
+      },
+      "CODIGO_ENTIDAD": {
+        "source_column": "ORG_CODE",
+        "type": "string"
+      },
+      "PROP_VALUE": {
+        "source_column": "PROP_VALUE",
+        "type": "string"
+      },
+      "CUST_SEGMENT": {
+        "source_column": "CUST_SEGMENT",
+        "type": "string"
+      },
+      "EMPLOYEE_CODE": {
+        "source_column": "EMPLOYEE_CODE",
+        "type": "string"
+      },
+      "FORMA_PAGO": {
+        "source_column": "FORMA_PAGO",
+        "type": "string"
+      },
+      "PAYMENT_METHOD_ID": {
+        "source_column": "PAYMENT_METHOD_ID",
+        "type": "string"
+      }
+    }
+  }
+}

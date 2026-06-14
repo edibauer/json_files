@@ -1,0 +1,86 @@
+{
+  "wf_N1_EXT_CAC_FEATURES_PPA": {
+    "source_file": " DWH_FEATURE_PPA",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "SERVICE_NUMBER": {
+        "source_column": "SERVICE_NUMBER",
+        "type": "string"
+      },
+      "LINE_STATUS": {
+        "source_column": "LINE_STATUS",
+        "type": "string"
+      },
+      "SUBPRODUCT": {
+        "source_column": "SUBPRODUCT",
+        "type": "string"
+      },
+      "ID_CUSTOMER": {
+        "source_column": "ID_CUSTOMER",
+        "type": "string"
+      },
+      "TIPO_IDENTIFICACION": {
+        "source_column": "TIPO_IDENTIFICACION",
+        "type": "string"
+      },
+      "ID_PLAN": {
+        "source_column": "ID_PLAN",
+        "type": "string"
+      },
+      "PLAN_NAME": {
+        "source_column": "PLAN_NAME",
+        "type": "string"
+      },
+      "ID_FEATURE": {
+        "source_column": "ID_FEATURE",
+        "type": "string"
+      },
+      "DESC_FEATURE": {
+        "source_column": "DESC_FEATURE",
+        "type": "string"
+      },
+      "START_DATE": {
+        "source_column": "START_DATE",
+        "type": "date"
+      },
+      "FEATURE_STATUS": {
+        "source_column": "FEATURE_STATUS",
+        "type": "string"
+      },
+      "TOTAL_RATE": {
+        "source_column": "TOTAL_RATE",
+        "type": "decimal"
+      },
+      "EMPLOYEE_CODE": {
+        "source_column": "EMPLOYEE_CODE",
+        "type": "string"
+      },
+      "EMPLOYEE_NAME": {
+        "source_column": "EMPLOYEE_NAME",
+        "type": "string"
+      },
+      "CAC_OFFICE": {
+        "source_column": "CAC_OFFICE",
+        "type": "string"
+      },
+      "BASE_RATE": {
+        "source_column": "BASE_RATE",
+        "type": "decimal"
+      },
+      "CODIGO_ESTADO_SERVICIO": {
+        "source_column": "CODIGO_ESTADO_SERVICIO",
+        "type": "string"
+      },
+      "CODIGO_ESTADO_FEATURE": {
+        "source_column": "CODIGO_ESTADO_FEATURE",
+        "type": "string"
+      },
+      "ID_EMPLEADO": {
+        "source_column": "ID_EMPLEADO",
+        "type": "string"
+      }
+    }
+  }
+}

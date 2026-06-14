@@ -1,0 +1,62 @@
+{
+  "wf_N1_EXT_CAC_FEATURES_MOVIL_POSTPAGO": {
+    "source_file": "DWH_WTTX_FEATURE",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "IDENTIFICACION_VENDEDOR": {
+        "source_column": "IDENTIFICACION_VENDEDOR",
+        "type": "string"
+      },
+      "SERVICIO": {
+        "source_column": "TELEFONO",
+        "type": "string"
+      },
+      "FECHA_DESDE_FEATURE": {
+        "source_column": "FECHA_INICIO",
+        "type": "date"
+      },
+      "DESCRIPCION": {
+        "source_column": "DESCRIPCION",
+        "type": "string"
+      },
+      "CODIGO_FEATURE": {
+        "source_column": "CODIGO_FEATURE",
+        "type": "string"
+      },
+      "IDENTIFICACION_CLIENTE": {
+        "source_column": "IDENTIFICACION",
+        "type": "string"
+      },
+      "PRECIO": {
+        "source_column": "PRECIO",
+        "type": "decimal"
+      },
+      "BUSINESS_KEY": {
+        "source_column": "BUSINESS_KEY",
+        "type": "string"
+      },
+      "BUSINESS_KEY_FEATURE": {
+        "source_column": "BUSINESS_KEY_F",
+        "type": "string"
+      },
+      "CUENTA": {
+        "source_column": "CUENTA",
+        "type": "string"
+      },
+      "FECHA_ACT_FEATURE": {
+        "source_column": "FECHA_ACT_FEATURE",
+        "type": "date"
+      },
+      "OFICINA": {
+        "source_column": "OFICINA",
+        "type": "string"
+      },
+      "SEGMENTO_CLIENTE": {
+        "source_column": "SEGMENTO_CLIENTE",
+        "type": "string"
+      }
+    }
+  }
+}

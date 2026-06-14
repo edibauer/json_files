@@ -1,0 +1,58 @@
+{
+  "wf_N1_EXT_CAC_OFERTA_BONDLE": {
+    "source_file": " DWH_OFERTA_BUNDLER",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "ORDER_ID": {
+        "source_column": "ORDER_ID",    
+        "type": "string"
+      },
+      "COMPLETION_DATE": {
+        "source_column": "COMPLETION_DATE",
+        "type": "date"
+      },
+      "GROUP_ID": {
+        "source_column": "GROUP_ID",
+        "type": "string"
+      },
+      "GROUP_NAME": {
+        "source_column": "GROUP_NAME",
+        "type": "string"
+      },
+      "OFFERING_ID": {
+        "source_column": "OFFERING_ID",
+        "type": "string"
+      },
+      "SERVICE_NUMBER": {
+        "source_column": "SERVICE_NUMBER",
+        "type": "string"
+      },
+      "TRANSACCION_GRUPO": {
+        "source_column": "TRANSACCION_GRUPO",
+        "type": "string"
+      },
+      "PRI_OFFERING_ID": {
+        "source_column": "PRI_OFFERING_ID",
+        "type": "string"
+      },
+      "PRI_OFFERING_NAME": {
+        "source_column": "PRI_OFFERING_NAME",
+        "type": "string"
+      },
+      "TRANSACCION_SERVICIO": {
+        "source_column": "TRANSACCION_SERVICIO",
+        "type": "string"
+      },
+      "BUSINESS_KEY": {
+        "source_column": "BUSINESS_KEY",
+        "type": "string"
+      },
+      "TECNOLOGIA": {
+        "source_column": "TECNOLOGIA",
+        "type": "string"
+      }
+    }
+  }
+}

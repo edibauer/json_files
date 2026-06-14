@@ -1,0 +1,98 @@
+{
+  "wf_N1_EXT_CAC_PLANES_DIARIOS_DTH": {
+    "source_file": "DWH_CAMBIO_PLAN_DTH_AXIS",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "SEQUENCE": {
+        "source_column": "SECUENCIA_MARCA",
+        "type": "int"
+      },
+      "SERVICE_NUMBER": {
+        "source_column": "ID_SERVICIO",
+        "type": "string"
+      },
+      "ORDER_ID": {
+        "source_column": "NULL",
+        "type": "string"
+      },
+      "ACTIVE_DATE": {
+        "source_column": "NULL",
+        "type": "date"
+      },
+      "ACCT_ID": {
+        "source_column": "ID_CONTRATO",
+        "type": "string"
+      },
+      "OFFERING_ID": {
+        "source_column": "OFFERING_ID",
+        "type": "string"
+      },
+      "OFFERING_ID1": {
+        "source_column": "ID_PLAN",
+        "type": "string"
+      },
+      "STATUS_DATE": {
+        "source_column": "FECHA_INICIO",
+        "type": "date"
+      },
+      "ACCT_CODE": {
+        "source_column": "REFERENCIA_4",
+        "type": "string"
+      },
+      "BUSINESS_KEY": {
+        "source_column": "NULL",
+        "type": "string"
+      },
+      "FECHA_MIGRACION": {
+        "source_column": "NULL",
+        "type": "date"
+      },
+      "TARIFA_ANTERIOR": {
+        "source_column": "VALOR_ANTERIOR",
+        "type": "decimal"
+      },
+      "TARIFA_NUEVA": {
+        "source_column": "VALOR_ACTUAL",
+        "type": "decimal"
+      },
+      "DESCRIPCION_PLAN_ACTUAL": {
+        "source_column": "PLAN_ACTUAL",
+        "type": "string"
+      },
+      "DESCRIPCION_PLAN_ANTERIOR": {
+        "source_column": "PLAN_ANTERIOR",
+        "type": "string"
+      },
+      "EMPLOYEE_CODE": {
+        "source_column": "ID_USUARIO",
+        "type": "string"
+      },
+      "CODIGO_VENDEDOR": {
+        "source_column": "CODIGO_VENDEDOR",
+        "type": "string"
+      },
+      "FECHA_FIN": {
+        "source_column": "FECHA_FIN",
+        "type": "date"
+      },
+      "ID_DETALLE_PLAN": {
+        "source_column": "ID_DETALLE_PLAN",
+        "type": "string"
+      },
+      "FECHA_MARCA": {
+        "source_column": "FECHA_MARCA",
+        "type": "date"
+      },
+      "OFICINA": {
+        "source_column": "ORG_NAME",
+        "type": "string"
+      },
+      "ID_EMPLEADO": {
+        "source_column": "ID_EMPLEADO",
+        "type": "string"
+      }
+    }
+  }
+}
