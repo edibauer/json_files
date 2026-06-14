@@ -1,0 +1,138 @@
+{
+  "wf_N1_EXT_CC_DTH_PREVENTA_PB_DTH_PREVENTA": {
+    "source_file": "DWH_PREV_PB_PREV_DTH_AXIS",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "DATO_IDENTIFICACION": {
+        "source_column": "DATO_IDENTIFICACION",
+        "type": "string"
+      },
+      "DATO_NOMBRE_COMPLETO": {
+        "source_column": "DATO_NOMBRE_COMPLETO",
+        "type": "string"
+      },
+      "ID_VENDEDOR_PERSONA": {
+        "source_column": "ID_VENDEDOR_PERSONA",
+        "type": "string"
+      },
+      "ID_CONTRATO": {
+        "source_column": "ID_CONTRATO",
+        "type": "string"
+      },
+      "ID_SERVICIO": {
+        "source_column": "ID_SERVICIO",
+        "type": "string"
+      },
+      "FECHA_MARCA": {
+        "source_column": "FECHA_MARCA",
+        "type": "date"
+      },
+      "SECUENCIA_MARCA": {
+        "source_column": "SECUENCIA_MARCA",
+        "type": "int"
+      },
+      "ID_DETALLE_PLAN": {
+        "source_column": "ID_DETALLE_PLAN",
+        "type": "string"
+      },
+      "ID_SOLICITUD": {
+        "source_column": "ID_SOLICITUD",
+        "type": "string"
+      },
+      "ID_DETALLE_SOLICITUD": {
+        "source_column": "ID_DETALLE_SOLICITUD",
+        "type": "string"
+      },
+      "ID_DETALLE_SERVICIO": {
+        "source_column": "ID_DETALLE_SERVICIO",
+        "type": "string"
+      },
+      "CODIGO_DOC": {
+        "source_column": "CODIGO_DOC",
+        "type": "string"
+      },
+      "ID_SUBPRODUCTO": {
+        "source_column": "ID_SUBPRODUCTO",
+        "type": "string"
+      },
+      "DATO_ID_IDENTIFICACION": {
+        "source_column": "DATO_ID_IDENTIFICACION",
+        "type": "string"
+      },
+      "ID_TIPO_APROBACION": {
+        "source_column": "ID_TIPO_APROBACION",
+        "type": "string"
+      },
+      "FECHA_INGRESO": {
+        "source_column": "FECHA_INGRESO",
+        "type": "date"
+      },
+      "ID_USUARIO_DIGITADOR": {
+        "source_column": "ID_USUARIO_DIGITADOR",
+        "type": "string"
+      },
+      "ID_VENDEDOR_ESPECIFICO": {
+        "source_column": "ID_VENDEDOR_ESPECIFICO",
+        "type": "string"
+      },
+      "ID_CICLO": {
+        "source_column": "ID_CICLO",
+        "type": "string"
+      },
+      "ESTADO": {
+        "source_column": "ESTADO",
+        "type": "string"
+      },
+      "ENTIDAD_BANCARIA": {
+        "source_column": "ENTIDAD_BANCARIA",
+        "type": "string"
+      },
+      "ID_PLAN": {
+        "source_column": "ID_PLAN",
+        "type": "string"
+      },
+      "ID_CATEGORIA_AMX": {
+        "source_column": "ID_CATEGORIA_AMX",
+        "type": "string"
+      },
+      "FORMA_PAGO": {
+        "source_column": "FORMA_PAGO",
+        "type": "string"
+      },
+      "NOMBRE_VENDEDOR": {
+        "source_column": "NOMBRE_VENDEDOR",
+        "type": "string"
+      },
+      "TIPO_ALTA": {
+        "source_column": "TIPO_ALTA",
+        "type": "string"
+      },
+      "ID_EMPLEADO": {
+        "source_column": "ID_EMPLEADO",
+        "type": "string"
+      },
+      "OFICINA": {
+        "source_column": "OFICINA",
+        "type": "string"
+      },
+      "SEGMENTO_CLIENTE": {
+        "source_column": "SEGMENTO_CLIENTE",
+        "type": "string"
+      },
+      "TIPO_SERVICIO": {
+        "source_column": "TIPO_SERVICIO",
+        "type": "string"
+      },
+      "TARIFA_BASICA": {
+        "source_column": "TARIFA_BASICA",
+        "type": "decimal"
+      },
+      "DSC_PLAN_ACTUAL": {
+        "source_column": "PLAN_ACTUAL",
+        "type": "string"
+      }
+    }
+  }
+}

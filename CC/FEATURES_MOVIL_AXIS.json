@@ -1,0 +1,58 @@
+{
+  "wf_N1_EXT_CC_FEATURES_MOVIL_AXIS": {
+    "source_file": "DWH_FEATURE_MOVIL_POS_AXIS",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "IDENTIFICACION_VENDEDOR": {
+        "source_column": "ID_EMPLEADO",
+        "type": "string"
+      },
+      "SERVICIO": {
+        "source_column": "SERVICIO",
+        "type": "string"
+      },
+      "FECHA_DESDE": {
+        "source_column": "FECHA_INICIO",
+        "type": "date"
+      },
+      "DESCRIPCION": {
+        "source_column": "DESCRIPCION",
+        "type": "string"
+      },
+      "CODIGO_FEATURE": {
+        "source_column": "CODIGO_FEATURE",
+        "type": "string"
+      },
+      "IDENTIFICACION_CLIENTE": {
+        "source_column": "IDENTIFICACION_CLIENTE",
+        "type": "string"
+      },
+      "PRECIO": {
+        "source_column": "PRECIO",
+        "type": "decimal"
+      },
+      "FECHA_MARCA_PRINCIPAL": {
+        "source_column": "FECHA_MARCA",
+        "type": "date"
+      },
+      "SECUENCIA_MARCA_PRINCIPAL": {
+        "source_column": "SECUENCIA_MARCA",
+        "type": "int"
+      },
+      "FECHA_ALTA": {
+        "source_column": "FECHA_ALTA",
+        "type": "date"
+      },
+      "CUENTA": {
+        "source_column": "CUENTA",
+        "type": "string"
+      },
+      "OFICINA": {
+        "source_column": "OFICINA",
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "wf_N1_EXT_CAC_PLANES_DIARIOS_POSTPAGO": {
+    "source_file": " DWH_CAMBIO_PLANES_AXIS_CALLIDUS",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "SEQUENCE": {
+        "source_column": "SECUENCIA_MARCA",
+        "type": "int"
+      },
+      "SERVICE_NUMBER": {
+        "source_column": "ID_SERVICIO",
+        "type": "string"
+      },
+      "ORDER_ID": {
+        "source_column": "NULL",
+        "type": "string"
+      },
+      "ACTIVE_DATE": {
+        "source_column": "NULL",
+        "type": "date"
+      },
+      "ACCT_ID": {
+        "source_column": "ID_CONTRATO_CAMB",
+        "type": "string"
+      },
+      "OFFERING_ID": {
+        "source_column": "NULL",
+        "type": "string"
+      },
+      "OFFERING_ID1": {
+        "source_column": "CAMBIO_PLAN",
+        "type": "string"
+      },
+      "STATUS_DATE": {
+        "source_column": "FECHA_INICIO",
+        "type": "date"
+      },
+      "ACCT_CODE": {
+        "source_column": "CUENTA_ACTUAL",
+        "type": "string"
+      },
+      "BUSINESS_KEY": {
+        "source_column": "NULL",
+        "type": "string"
+      },
+      "FECHA_MIGRACION": {
+        "source_column": "NULL",
+        "type": "date"
+      },
+      "TARIFA_ANTERIOR": {
+        "source_column": "TARIFA_ANT_PLAN",
+        "type": "decimal"
+      },
+      "TARIFA_NUEVA": {
+        "source_column": "TARIFA_CAMBIO_PLAN",
+        "type": "decimal"
+      },
+      "DESCRIPCION_PLAN_ACTUAL": {
+        "source_column": "DESC_CAMB_PLAN",
+        "type": "string"
+      },
+      "DESCRIPCION_PLAN_ANTERIOR": {
+        "source_column": "DESC_ANT_PLAN",
+        "type": "string"
+      },
+      "EMPLOYEE_CODE": {
+        "source_column": "NULL",
+        "type": "string"
+      },
+      "CODIGO_VENDEDOR": {
+        "source_column": "NULL",
+        "type": "string"
+      },
+      "FECHA_FIN": {
+        "source_column": "FECHA_FIN",
+        "type": "date"
+      },
+      "ID_DETALLE_PLAN": {
+        "source_column": "ID_DETALLE_PLAN_CAMBIO",
+        "type": "string"
+      },
+      "FECHA_MARCA": {
+        "source_column": "FECHA_MARCA",
+        "type": "date"
+      },
+      "OFICINA": {
+        "source_column": "OFICINA",
+        "type": "string"
+      },
+      "ID_EMPLEADO": {
+        "source_column": "ID_EMPLEADO",
+        "type": "string"
+      }
+    }
+  }
+}

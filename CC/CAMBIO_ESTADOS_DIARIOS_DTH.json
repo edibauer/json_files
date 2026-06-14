@@ -1,0 +1,114 @@
+{
+  "wf_N1_EXT_CC_CAMBIO_ESTADOS_DIARIOS_DTH": {
+    "source_file": "DWH_DTH_CAMBIO_ESTADOS_DIARIOS",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "SECUENCIAL": {
+        "source_column": "SECUENCIAL",
+        "type": "int"
+      },
+      "ID_SERVICIO": {
+        "source_column": "ID_SERVICIO",
+        "type": "string"
+      },
+      "ID_CONTRATO": {
+        "source_column": "ID_CONTRATO",
+        "type": "string"
+      },
+      "CUENTA_BSCS_ACTUAL": {
+        "source_column": "CUENTA_BSCS_ACTUAL",
+        "type": "string"
+      },
+      "PRODUCTO_ACTUAL": {
+        "source_column": "PRODUCTO_ACTUAL",
+        "type": "string"
+      },
+      "ESTADO_ACTUAL": {
+        "source_column": "ESTADO_ACTUAL",
+        "type": "string"
+      },
+      "FECHA_DESDE": {
+        "source_column": "FECHA_DESDE",
+        "type": "date"
+      },
+      "CODIGO_RAZON": {
+        "source_column": "CODIGO_RAZON",
+        "type": "string"
+      },
+      "DESC_RAZON": {
+        "source_column": "DESC_RAZON",
+        "type": "string"
+      },
+      "NOMBRES_CLIENTE": {
+        "source_column": "NOMBRES_CLIENTE",
+        "type": "string"
+      },
+      "IDENTIFICACION": {
+        "source_column": "IDENTIFICACION",
+        "type": "string"
+      },
+      "TIPO_IDENTIFICACION": {
+        "source_column": "TIPO_IDENTIFICACION",
+        "type": "string"
+      },
+      "DESC_ESTATUS": {
+        "source_column": "DESC_ESTATUS",
+        "type": "string"
+      },
+      "FLAG_MULTIPUNTO": {
+        "source_column": "FLAG_MULTIPUNTO",
+        "type": "string"
+      },
+      "BUSINESS_KEY": {
+        "source_column": "BUSINESS_KEY",
+        "type": "string"
+      },
+      "FECHA_ACTIVACION": {
+        "source_column": "FECHA_ACTIVACION",
+        "type": "date"
+      },
+      "TIPO_SERVICIO": {
+        "source_column": "TIPO_SERVICIO",
+        "type": "string"
+      },
+      "FAMILIA": {
+        "source_column": "TV",
+        "type": "string"
+      },
+      "TECNOLOGIA": {
+        "source_column": "IDTECNOLOGY",
+        "type": "string"
+      },
+      "CANTIDAD_SERVICIOS": {
+        "source_column": "1",
+        "type": "int"
+      },
+      "CANTON": {
+        "source_column": "CANTON",
+        "type": "string"
+      },
+      "NOMBRE_VENDEDOR": {
+        "source_column": "NOMBRE_VENDEDOR",
+        "type": "string"
+      },
+      "IDENTIFICACION_VENDEDOR": {
+        "source_column": "IDENTIFICACION_VENDEDOR",
+        "type": "string"
+      },
+      "OFICINA": {
+        "source_column": "OFICINA",
+        "type": "string"
+      },
+      "TARIFA_BASICA": {
+        "source_column": "TARIFA_BASICA",
+        "type": "decimal"
+      },
+      "DESC_PLAN_ACTUAL": {
+        "source_column": "DESC_PLAN_ACTUAL",
+        "type": "string"
+      }
+    }
+  }
+}

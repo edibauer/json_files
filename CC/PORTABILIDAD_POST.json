@@ -1,0 +1,74 @@
+{
+  "wf_N1_EXT_CC_PORTABILIDAD-POST": {
+    "source_file": " DWH_CAC_PORTABILIDAD_POST",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "SEQUENCE": {
+        "source_column": "SEQUENCE",
+        "type": "int"
+      },
+      "ACCT_ID": {
+        "source_column": "ACCT_ID",
+        "type": "string"
+      },
+      "SUBS_ID": {
+        "source_column": "SUBS_ID",
+        "type": "string"
+      },
+      "SERVICE_NUMBER": {
+        "source_column": "SERVICE_NUMBER",
+        "type": "string"
+      },
+      "CLASSIFICATION_ID": {
+        "source_column": "CLASSIFICATION_ID",
+        "type": "string"
+      },
+      "PRI_OFFERING_NAME": {
+        "source_column": "PRI_OFFERING_NAME",
+        "type": "string"
+      },
+      "CODIGO_VEND": {
+        "source_column": "CODIGO_VEND",
+        "type": "string"
+      },
+      "OFFERING_ID": {
+        "source_column": "OFFERING_ID",
+        "type": "string"
+      },
+      "FECHA_PORTABILIDAD": {
+        "source_column": "FECHA_PORTABILIDAD",
+        "type": "date"
+      },
+      "EX_FIELD2": {
+        "source_column": "EX_FIELD2",
+        "type": "string"
+      },
+      "PRODUCTO_ORIGEN": {
+        "source_column": "PRODUCTO_ORIGEN",
+        "type": "string"
+      },
+      "OPERADOR": {
+        "source_column": "OPERADOR",
+        "type": "string"
+      },
+      "ICCID_DIG": {
+        "source_column": "ICCID_DIG",
+        "type": "string"
+      },
+      "ID_NUMBER": {
+        "source_column": "ID_NUMBER",
+        "type": "string"
+      },
+      "CUST_NAME": {
+        "source_column": "CUST_NAME",
+        "type": "string"
+      },
+      "BUSINESS_KEY": {
+        "source_column": "BUSINESS_KEY",
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "wf_N1_EXT_CC_CAMBIO_ESTADOS_DIARIOS_FIJA_SGA": {
+    "source_file": "DWH_ESTADOS_DIARIOS_FIJA_SGA_NTZ",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "SECUENCIAL": {
+        "source_column": "SECUENCIAL",
+        "type": "int"
+      },
+      "ID_SERVICIO": {
+        "source_column": "ID_SERVICIO",
+        "type": "string"
+      },
+      "ID_CONTRATO": {
+        "source_column": "ID_CONTRATO",
+        "type": "string"
+      },
+      "CUENTA_BSCS_ACTUAL": {
+        "source_column": "CUENTA_BSCS_ACTUAL",
+        "type": "string"
+      },
+      "PRODUCTO_ACTUAL": {
+        "source_column": "PRODUCTO_ACTUAL",
+        "type": "string"
+      },
+      "FECHA_DESDE": {
+        "source_column": "FECHA_DESDE",
+        "type": "date"
+      },
+      "NOMBRES_CLIENTES": {
+        "source_column": "NOMBRES_CLIENTES",
+        "type": "string"
+      },
+      "IDENTIFICACION": {
+        "source_column": "IDENTIFICACION",
+        "type": "string"
+      },
+      "TIPO_IDENTIFICACION": {
+        "source_column": "TIPO_IDENTIFICACION",
+        "type": "string"
+      },
+      "DESC_STATUS": {
+        "source_column": "DESC_STATUS",
+        "type": "string"
+      },
+      "BUSINESS_KEY": {
+        "source_column": "BUSINESS_KEY",
+        "type": "string"
+      },
+      "FECHA_ACTIVACION": {
+        "source_column": "FECHA_ACTIVACION",
+        "type": "date"
+      },
+      "CODIGO_FAMILIA": {
+        "source_column": "CODIGO_FAMILIA",
+        "type": "string"
+      },
+      "DESCRIPCION_FAMILIA": {
+        "source_column": "DESCRIPCION_FAMILIA",
+        "type": "string"
+      },
+      "TECNOLOGIA": {
+        "source_column": "TECNOLOGIA",
+        "type": "string"
+      },
+      "CODIGO_TIPO_TRABAJO": {
+        "source_column": "CODIGO_TIPO_TRABAJO",
+        "type": "string"
+      },
+      "CODIGO_ESTADO_SERVICIO": {
+        "source_column": "CODIGO_ESTADO_SERVICIO",
+        "type": "string"
+      },
+      "PRECIO_RENTA": {
+        "source_column": "PRECIO_RENTA",
+        "type": "decimal"
+      },
+      "DESCRIPCION_SERVICIO": {
+        "source_column": "DESCRIPCION_SERVICIO",
+        "type": "string"
+      },
+      "USUARIO_VENDEDOR": {
+        "source_column": "CODIGO_VENDEDOR",
+        "type": "string"
+      },
+      "NOMBRE_VENDEDOR": {
+        "source_column": "NOMBRE_VENDEDOR",
+        "type": "string"
+      },
+      "NOMBRE_VENDEDOR_BAJA": {
+        "source_column": "NOMBRE_VENDEDOR_BAJA",
+        "type": "string"
+      },
+      "IDENT_VEND_BAJA": {
+        "source_column": "ID_EMPLEADO",
+        "type": "string"
+      },
+      "REAZON_VALUE": {
+        "source_column": "REAZON_VALUE",
+        "type": "string"
+      },
+      "OFICINA": {
+        "source_column": "OFICINA",
+        "type": "string"
+      },
+      "TIPO_SERVICIO": {
+        "source_column": "FLGPRINC_SE",
+        "type": "string"
+      }
+    }
+  }
+}

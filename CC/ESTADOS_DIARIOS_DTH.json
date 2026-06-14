@@ -1,0 +1,102 @@
+{
+  "wf_N1_EXT_CC_ESTADOS_DIARIOS_DTH": {
+    "source_file": "DWH_ESTADOS_DIARIOS_DTH_AXIS",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "ID_SERVICIO": {
+        "source_column": "ID_SERVICIO",
+        "type": "string"
+      },
+      "ID_CONTRATO": {
+        "source_column": "ID_CONTRATO",
+        "type": "string"
+      },
+      "VALOR": {
+        "source_column": "VALOR",
+        "type": "decimal"
+      },
+      "FECHA_DESDE": {
+        "source_column": "FECHA_DESDE",
+        "type": "date"
+      },
+      "FECHA_MARCA": {
+        "source_column": "FECHA_MARCA",
+        "type": "date"
+      },
+      "SECUENCIA_MARCA": {
+        "source_column": "SECUENCIA_MARCA",
+        "type": "int"
+      },
+      "ID_DETALLE_PLAN": {
+        "source_column": "ID_DETALLE_PLAN",
+        "type": "string"
+      },
+      "NOMBRE_COMPLETO": {
+        "source_column": "NOMBRE_COMPLETO",
+        "type": "string"
+      },
+      "IDENTIFICACION": {
+        "source_column": "IDENTIFICACION",
+        "type": "string"
+      },
+      "ID_IDENTIFICACION": {
+        "source_column": "ID_IDENTIFICACION",
+        "type": "string"
+      },
+      "REFERENCIA_4": {
+        "source_column": "REFERENCIA_4",
+        "type": "string"
+      },
+      "DESCRIPCION": {
+        "source_column": "DESCRIPCION",
+        "type": "string"
+      },
+      "TIPO_SERVICIO": {
+        "source_column": "TIPO_SERVICIO",
+        "type": "string"
+      },
+      "FAMILIA": {
+        "source_column": "TV",
+        "type": "string"
+      },
+      "TECNOLOGIA": {
+        "source_column": "DTH",
+        "type": "string"
+      },
+      "CANTIDAD_SERVICIOS": {
+        "source_column": "1",
+        "type": "int"
+      },
+      "OBSERVACION": {
+        "source_column": "OBSERVACION",
+        "type": "string"
+      },
+      "ID_PLAN": {
+        "source_column": "ID_PLAN",
+        "type": "string"
+      },
+      "NOMBRE_VENDEDOR": {
+        "source_column": "NOMBRE_VENDEDOR",
+        "type": "string"
+      },
+      "IDENTIFICACION_VENDEDOR": {
+        "source_column": "IDENTIFICACION_VENDEDOR",
+        "type": "string"
+      },
+      "OFICINA": {
+        "source_column": "OFICINA",
+        "type": "string"
+      },
+      "TARIFA_BASICA": {
+        "source_column": "TARIFA_BASICA",
+        "type": "decimal"
+      },
+      "DESC_PLAN_ACTUAL": {
+        "source_column": "DESC_PLAN_ACTUAL",
+        "type": "string"
+      }
+    }
+  }
+}

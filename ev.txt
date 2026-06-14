@@ -1,6 +1,4 @@
 -- CAC
-1. Para el archivo de wf_N1_EXT_CAC_CAMBIO_ESTADOS_DIARIOS_FIJA_SGA dice que el CODIGO_FAMILIA no se incluye en el archivo.
-2. No se encuentra el campo DESCRIPCION_SERVICIO en el archivo padre.
 3. Para el archivo wf_N1_EXT_POSTPAGO_ACTIVACIONES no se cuenta con nombre en informacion de venta movil para FECHA_MIGRACION
 4. En el archivo CAMBIO_ESTADOS_DIARIOS faltan los siguientes atributos en Excel OFFERING_ID1, STATUS_DATE, TARIFA_ANTERIOR, TARIFA_NUEVA, DESCRIPCION_PLAN_ACTUAL, DESCRIPCION_PLAN_ANTERIOR, CODIGO_VENDEDOR, ID_EMPLEADO, FECHA_PROGRAMACION
 5. En el archivo EQUIPOS_HANDSET falta SECUENCIAL, VALOR_SUBSIDIO (esta como TOTAL_SUBSIDIO) en el excel 
@@ -14,7 +12,8 @@
 - PLANES_DIARIOS_DTH: No esta la columna CODIG_VENDEDOR en el excel
 - Hace falta el excel de FACTURAS_EMITIDAS_AXIS
 - Hace falta el arhcivo de FACTURAS_PAGADAS_AXIS
-
+- Hace falta el campo OFICINA en PLANES_DIARIOS_POSTPAGO
 
 
 -- CC
+- Hace falta la hoja de excel de PORTABILIDAD_POST_AXIS

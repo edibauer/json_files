@@ -1,0 +1,214 @@
+{
+  "wf_N1_EXT_CC_POSTPAGO_ACTIVACIONES": {
+    "source_file": "DWH_EVENTOS_VENTAS_MOVIL_HWE",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "SEQUENCE": {
+        "source_column": "SEQUENCE",
+        "type": "int"
+      },
+      "ORDER_ID": {
+        "source_column": "ORDER_ID",
+        "type": "string"
+      },
+      "ACCT_ID": {
+        "source_column": "ACCT_ID",
+        "type": "string"
+      },
+      "SUBS_ID": {
+        "source_column": "SUBS_ID",
+        "type": "string"
+      },
+      "SERVICE_NUMBER": {
+        "source_column": "SERVICE_NUMBER",
+        "type": "string"
+      },
+      "ID_NUMBER": {
+        "source_column": "ID_NUMBER",
+        "type": "string"
+      },
+      "CUST_NAME": {
+        "source_column": "CUST_NAME",
+        "type": "string"
+      },
+      "CODIGO_VEND": {
+        "source_column": "CODIGO_VEND",
+        "type": "string"
+      },
+      "ACTIVE_DATE": {
+        "source_column": "ACTIVE_DATE",
+        "type": "date"
+      },
+      "TIPO_ALTA": {
+        "source_column": "TIPO_ALTA",
+        "type": "string"
+      },
+      "FLAG_DIFERIDA": {
+        "source_column": "FLAG_DIFERIDA",
+        "type": "string"
+      },
+      "CLASSIFICATION_ID": {
+        "source_column": "CLASSIFICATION_ID",
+        "type": "string"
+      },
+      "OFFER_DESC": {
+        "source_column": "OFFER_DESC",
+        "type": "string"
+      },
+      "OFFERING_ID": {
+        "source_column": "OFFERING_ID",
+        "type": "string"
+      },
+      "OFFERING_ID_1": {
+        "source_column": "OFFERING_ID_1",
+        "type": "string"
+      },
+      "OFFERING_TYPE": {
+        "source_column": "OFFERING_TYPE",
+        "type": "string"
+      },
+      "ACCT_CODE": {
+        "source_column": "ACCT_CODE",
+        "type": "string"
+      },
+      "STATUS": {
+        "source_column": "STATUS",
+        "type": "string"
+      },
+      "PORTABILITY_ID": {
+        "source_column": "PORTABILITY_ID",
+        "type": "string"
+      },
+      "SERVICE_NUMBER_1": {
+        "source_column": "SERVICE_NUMBER_1",
+        "type": "string"
+      },
+      "EX_FIELD13_1": {
+        "source_column": "EX_FIELD13_1",
+        "type": "string"
+      },
+      "CREATE_TIME_1": {
+        "source_column": "CREATE_TIME_1",
+        "type": "date"
+      },
+      "CUST_NAME_1": {
+        "source_column": "CUST_NAME_1",
+        "type": "string"
+      },
+      "INITIAL_AMOUNT": {
+        "source_column": "INITIAL_AMOUNT",
+        "type": "decimal"
+      },
+      "COMPLETION_DATE_1": {
+        "source_column": "COMPLETION_DATE_1",
+        "type": "date"
+      },
+      "ID_TYPE": {
+        "source_column": "ID_TYPE",
+        "type": "string"
+      },
+      "DISTRIBUCION_LINEA": {
+        "source_column": "DISTRIBUCION_LINEA",
+        "type": "string"
+      },
+      "FIELD4": {
+        "source_column": "FIELD4",
+        "type": "string"
+      },
+      "NOMBRE_VENDEDOR": {
+        "source_column": "NOMBRE_VENDEDOR",
+        "type": "string"
+      },
+      "CODIGO_VENDEDOR_ESPECIFICO": {
+        "source_column": "CODIGO_VENDEDOR_ESPECIFICO",
+        "type": "string"
+      },
+      "INSTALLMENT_INST_ID": {
+        "source_column": "INSTALLMENT_INST_ID",
+        "type": "string"
+      },
+      "OFFERING_NAME": {
+        "source_column": "OFFERING_NAME",
+        "type": "string"
+      },
+      "TOTAL_AMOUNT": {
+        "source_column": "TOTAL_AMOUNT",
+        "type": "decimal"
+      },
+      "TOTAL_AMOUNT_1": {
+        "source_column": "TOTAL_AMOUNT_1",
+        "type": "decimal"
+      },
+      "INSTALLMENT_INST_ID_1": {
+        "source_column": "INSTALLMENT_INST_ID_1",
+        "type": "string"
+      },
+      "BILL_CYCLE_TYPE_ID": {
+        "source_column": "BILL_CYCLE_TYPE_ID",
+        "type": "string"
+      },
+      "STATUS_DATE": {
+        "source_column": "STATUS_DATE",
+        "type": "date"
+      },
+      "ADDR": {
+        "source_column": "ADDR",
+        "type": "string"
+      },
+      "EX_FIELD13": {
+        "source_column": "EX_FIELD13",
+        "type": "string"
+      },
+      "EX_FIELD1": {
+        "source_column": "EX_FIELD1",
+        "type": "string"
+      },
+      "ITEM_NAME": {
+        "source_column": "ITEM_NAME",
+        "type": "string"
+      },
+      "ITEM_SKU_NAME": {
+        "source_column": "ITEM_SKU_NAME",
+        "type": "string"
+      },
+      "EMPLOYEE_CODE": {
+        "source_column": "EMPLOYEE_CODE",
+        "type": "string"
+      },
+      "BUSINESS_KEY": {
+        "source_column": "BUSINESS_KEY",
+        "type": "string"
+      },
+      "ORG_NAME": {
+        "source_column": "ORG_NAME",
+        "type": "string"
+      },
+      "COMPLETION_ORDER_DATE": {
+        "source_column": "COMPLETION_DATE",
+        "type": "date"
+      },
+      "FECHA_MIGRACION": {
+        "source_column": "FECHA_MIGRACION",
+        "type": "date"
+      },
+      "PREVIEWS_PAYMENTS": {
+        "source_column": "PREVIEWS_PAYMENTS",
+        "type": "decimal"
+      },
+      "PRECIO_RENTA": {
+        "source_column": "TARIFA_BASICA",
+        "type": "decimal"
+      },
+      "ID_EMPLEADO": {
+        "source_column": "ID_EMPLEADO",
+        "type": "string"
+      },
+      "SEGMENTO_CLIENTE": {
+        "source_column": "SEGMENTO_CLIENTE",
+        "type": "string"
+      }
+    }
+  }
+}
