@@ -1,0 +1,62 @@
+{
+  "wf_N1_EXT_CAC_FACTURAS_PAGADAS_AXIS": {
+    "source_file": "DWH_FACTURAS_PAGADAS_AXIS",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "NO_FACTURA": {
+        "source_column": "NO_FACTURA",
+        "type": "string"
+      },
+      "CUENTA_BSCS": {
+        "source_column": "CUENTA_BSCS",
+        "type": "string"
+      },
+      "FECHA_FACTURACION": {
+        "source_column": "FECHA_FACTURACION",
+        "type": "date"
+      },
+      "VALOR_PAGADO": {
+        "source_column": "VALOR_PAGADO",
+        "type": "decimal"
+      },
+      "VALOR_FACTURADO": {
+        "source_column": "VALOR_FACTURADO",
+        "type": "decimal"
+      },
+      "FECHA_PAGO": {
+        "source_column": "FECHA_PAGO",
+        "type": "date"
+      },
+      "DESC_FORMA_PAGO": {
+        "source_column": "DESC_FORMA_PAGO",
+        "type": "string"
+      },
+      "CODIGO_ENTIDAD": {
+        "source_column": "CODIGO_ENTIDAD",
+        "type": "string"
+      },
+      "MEDIO_CANAL": {
+        "source_column": "MEDIO_CANAL",
+        "type": "string"
+      },
+      "REGION": {
+        "source_column": "REGION",
+        "type": "string"
+      },
+      "GRUPO": {
+        "source_column": "GRUPO",
+        "type": "string"
+      },
+      "USUARIO": {
+        "source_column": "USUARIO",
+        "type": "string"
+      },
+      "FORMA_PAGO": {
+        "source_column": "FORMA_PAGO",
+        "type": "string"
+      }
+    }
+  }
+}

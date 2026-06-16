@@ -1,0 +1,46 @@
+{
+  "wf_N1_EXT_CAC_FACTURAS_EMITIDAS_AXIS": {
+    "source_file": "DWH_FACT_EMITIDAS_AXIS",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "CUSTOMER_ID": {
+        "source_column": "CUSTOMER_ID",
+        "type": "string"
+      },
+      "FACTURA": {
+        "source_column": "FACTURA",
+        "type": "string"
+      },
+      "CUENTA_BSCS": {
+        "source_column": "CUENTA_BSCS",
+        "type": "string"
+      },
+      "FECHA_FACTURACION": {
+        "source_column": "FECHA_FACTURACION",
+        "type": "date"
+      },
+      "FECHA_MAX_PAGO": {
+        "source_column": "FECHA_MAX_PAGO",
+        "type": "date"
+      },
+      "CICLO_FACTURACION": {
+        "source_column": "CICLO_FACTURACION",
+        "type": "string"
+      },
+      "VALOR_FACTURADO": {
+        "source_column": "VALOR_FACTURADO",
+        "type": "decimal"
+      },
+      "NOMBRES_CLIENTE": {
+        "source_column": "NOMBRES_CLIENTE",
+        "type": "string"
+      },
+      "DIRECCION_DOMICILIO": {
+        "source_column": "DIRECCION_DOMICILIO",
+        "type": "string"
+      }
+    }
+  }
+}

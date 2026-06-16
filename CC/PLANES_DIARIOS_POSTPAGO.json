@@ -14,11 +14,11 @@
         "type": "string"
       },
       "ORDER_ID": {
-        "source_column": "NULL",
+        "source_column": "ORDER_ID",
         "type": "string"
       },
       "ACTIVE_DATE": {
-        "source_column": "NULL",
+        "source_column": "ACTIVE_DATE",
         "type": "date"
       },
       "ACCT_ID": {
@@ -26,7 +26,7 @@
         "type": "string"
       },
       "OFFERING_ID": {
-        "source_column": "NULL",
+        "source_column": "OFFERING_ID",
         "type": "string"
       },
       "OFFERING_ID1": {
@@ -42,11 +42,11 @@
         "type": "string"
       },
       "BUSINESS_KEY": {
-        "source_column": "NULL",
+        "source_column": "BUSINESS_KEY",
         "type": "string"
       },
       "FECHA_MIGRACION": {
-        "source_column": "NULL",
+        "source_column": "FECHA_MIGRACION",
         "type": "date"
       },
       "TARIFA_ANTERIOR": {
@@ -66,11 +66,11 @@
         "type": "string"
       },
       "EMPLOYEE_CODE": {
-        "source_column": "NULL",
+        "source_column": "EMPLOYEE_CODE",
         "type": "string"
       },
       "CODIGO_VENDEDOR": {
-        "source_column": "NULL",
+        "source_column": "CODIGO_VENDEDOR",
         "type": "string"
       },
       "FECHA_FIN": {

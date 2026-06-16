@@ -190,7 +190,7 @@
         "type": "date"
       },
       "FECHA_MIGRACION": {
-        "source_column": "FECHA_MIGRACION",
+        "source_column": "COMPLETION_DATE",
         "type": "date"
       },
       "PREVIEWS_PAYMENTS": {

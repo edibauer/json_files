@@ -102,7 +102,7 @@
         "type": "string"
       },
       "VALOR_SUBSIDIO": {
-        "source_column": "VALOR_SUBSIDIO",
+        "source_column": "TOTAL_SUBSIDIO",
         "type": "decimal"
       },
       "ESTADO_SUBSIDIO": {

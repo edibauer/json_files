@@ -14,11 +14,11 @@
         "type": "string"
       },
       "ORDER_ID": {
-        "source_column": "NULL",
+        "source_column": "ORDER_ID",
         "type": "string"
       },
       "ACTIVE_DATE": {
-        "source_column": "NULL",
+        "source_column": "ACTIVE_DATE",
         "type": "date"
       },
       "ACCT_ID": {
@@ -42,11 +42,11 @@
         "type": "string"
       },
       "BUSINESS_KEY": {
-        "source_column": "NULL",
+        "source_column": "BUSINESS_KEY",
         "type": "string"
       },
       "FECHA_MIGRACION": {
-        "source_column": "NULL",
+        "source_column": "FECHA_MIGRACION",
         "type": "date"
       },
       "TARIFA_ANTERIOR": {
@@ -70,7 +70,7 @@
         "type": "string"
       },
       "CODIGO_VENDEDOR": {
-        "source_column": "CODIGO_VENDEDOR",
+        "source_column": "ID_USUARIO",
         "type": "string"
       },
       "FECHA_FIN": {

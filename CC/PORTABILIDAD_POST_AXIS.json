@@ -1,0 +1,54 @@
+{
+  "wf_N1_EXT_CC_PORTABILIDAD-POST_AXIS": {
+    "source_file": " DWH_PORTABILIDAD_POST_AXIS",
+    "periodic_days": [
+      "daily"
+    ],
+    "columns": {
+      "ID_CONTRATO": {
+        "source_column": "ID_CONTRATO",
+        "type": "string"
+      },
+      "ID_SERVICIO": {
+        "source_column": "ID_SERVICIO",
+        "type": "string"
+      },
+      "VENDEDOR": {
+        "source_column": "VENDEDOR",
+        "type": "string"
+      },
+      "FECHA_PORTADO": {
+        "source_column": "FECHA_PORTADO",
+        "type": "date"
+      },
+      "ID_SUBPRODUCTO": {
+        "source_column": "ID_SUBPRODUCTO",
+        "type": "string"
+      },
+      "ID_PLAN": {
+        "source_column": "ID_PLAN",
+        "type": "string"
+      },
+      "PROD_OPER_DONAMT": {
+        "source_column": "PROD_OPER_DONAMT",
+        "type": "string"
+      },
+      "ID_SOLICITUD": {
+        "source_column": "ID_SOLICITUD",
+        "type": "string"
+      },
+      "OPERADORA_ORIGEN": {
+        "source_column": "OPERADORA_ORIGEN",
+        "type": "string"
+      },
+      "FECHA_MARCA": {
+        "source_column": "FECHA_MARCA",
+        "type": "date"
+      },
+      "SECUENCIA_MARCA": {
+        "source_column": "SECUENCIA_MARCA",
+        "type": "int"
+      }
+    }
+  }
+}

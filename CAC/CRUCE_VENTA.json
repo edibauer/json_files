@@ -24,10 +24,6 @@
       "BUSINESS_KEY": {
         "source_column": "BUSINESS_KEY",
         "type": "string"
-      },
-      "CANAL": {
-        "source_column": "CANAL",
-        "type": "string"
       }
     }
   }

@@ -78,7 +78,7 @@
         "type": "decimal"
       },
       "DESCRIPCION_SERVICIO": {
-        "source_column": "DESCRIPCION_SERVICIO",
+        "source_column": "DESCRIPCION_PLAN",
         "type": "string"
       },
       "USUARIO_VENDEDOR": {

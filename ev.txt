@@ -12,8 +12,37 @@
 - PLANES_DIARIOS_DTH: No esta la columna CODIG_VENDEDOR en el excel
 - Hace falta el excel de FACTURAS_EMITIDAS_AXIS
 - Hace falta el arhcivo de FACTURAS_PAGADAS_AXIS
-- Hace falta el campo OFICINA en PLANES_DIARIOS_POSTPAGO
+- Hace falta el campo OFICINA en PLANES_DIARIOS_POSTPAGO -- FALTA
 
 
 -- CC
 - Hace falta la hoja de excel de PORTABILIDAD_POST_AXIS
+
+-- 2.0
+1.- wf_N1_EXT_CAC_CRUCE_VENTA para el canal CAC la columna Oficina no se genera, ya que es una columna solicitada por el canal CC. -- CHECK
+
+2.- wf_N1_EXT_POSTPAGO_ACTIVACIONES se realiza la actualización de los campos. -- El COMPLETION ORDER DATE apunta a doe columas del archivo de texto plano
+
+3.- CAMBIO_ESTADOS_DIARIOS El archivo no posee esos campos,  favor validar si no hay confusión con el archivo  de cambio Planes diarios. -- CHECK
+
+4.- EQUIPOS_HANDSET,  se realiza la actualización de los campos. -- CHECK
+
+5.- EQUIPOS_TV  se realiza la actualización de los campos. -- CHECK
+
+6.- ESTADOS_DIARIOS_POSTPAGO    favor validar los campos en la pestaña wf_N1_EXT_CAC_ESTADOS_AXIS se realiza el ajuste en el campo Id_plan, el campo oficina si esta, si es este archivo wf_N1_EXT_CAC_ESTADOS_DIARIOS_POSTPAGO que hacen referencia. Existen 2 pestañas uno para los archivos existentes (DAS, FDV) y los que tienen la nomenclatura CAC (CAC,CC). -- CHECK
+
+7.- CAMBIO_PLANES_DIARIOS_FIJA  se realiza la actualización de los campos. -- CHECK
+
+9.- CAMBIO_ESTADOS_DIARIOS_FIJA_SGA se realiza la actualización de los campos. -- CHECK
+
+10.- PLANES_DIARIOS_DTH se realiza la actualización de los campos. --CHECK
+
+11.- Se agregan los archivos faltantes. -- CHECK
+
+De los archivos indicados como faltantes
+
+1.       PORTABILIDAD_POST_AXIS, favor confirmar con el archivo que se liberó para las pruebas, si no hay ningún cambio a realizar para poder pasarlo a productivo. -- CHECK
+
+-- VAL (16/06/2026)
+- Hace falta el campo OFICINA en PLANES_DIARIOS_POSTPAGO
+- Se confirma que el layout del archivo de texto PORTABILIDAD_POST_AXIS para pruebas sigue siendo este: ID_CONTRATO|ID_SERVICIO|VENDEDOR|FECHA_PORTADO|ID_SUBPRODUCTO|ID_PLAN|PROD_OPER_DONAMT|ID_SOLICITUD|OPERADORA_ORIGEN|FECHA_MARCA|SECUENCIA_MARCA

@@ -78,7 +78,7 @@
         "type": "decimal"
       },
       "DSC_PLAN_ACTUAL": {
-        "source_column": "ID_PLAN",
+        "source_column": "PLAN_ACTUAL",
         "type": "string"
       },
       "TIPO_SERVICIO": {
