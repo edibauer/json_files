@@ -24,6 +24,10 @@
       "BUSINESS_KEY": {
         "source_column": "BUSINESS_KEY",
         "type": "string"
+      },
+      "OFICINA": {
+        "source_column": "OFICINA",
+        "type": "string"
       }
     }
   }
